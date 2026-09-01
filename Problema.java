@@ -16,4 +16,3 @@ class Problema {
         return dificultad;
     }
 }
-//prueba pushh

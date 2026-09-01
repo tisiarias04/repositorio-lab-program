@@ -14,7 +14,7 @@ class Soporte3 extends Soporte {
         executor.schedule(
                 () -> {
 
-                    System.out.println("Nivel 3 analizó los efectos del problema...");
+                    System.out.println("Nivel 3 analizó los efectos del problema");
 
                     System.out.println("Nivel 3 está procesando: " + problema.getDescripcion());
 

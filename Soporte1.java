@@ -5,12 +5,12 @@ class Soporte1 extends Soporte {
         if (problema.getDificultad() <= 1) {
             System.out.println("Nivel 1 resolvió: " + problema.getDescripcion());
         } else {
-
+            
             System.out.println("Nivel 1 no puede resolver el problema.");
             if (siguiente != null) {
                 siguiente.resolver(problema);
             }
-            
+
         }
     }
 }

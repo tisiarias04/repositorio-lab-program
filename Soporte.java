@@ -7,4 +7,5 @@ abstract class Soporte {
     }
 
     public abstract void resolver(Problema problema);
+    
 }
